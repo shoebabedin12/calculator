@@ -14,7 +14,8 @@ body {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
   padding: 20px;
 }
-.display {
+.calculator h1 { color: #fff; text-align: center; margin-bottom: 20px; }
+.display, .display:focus-visible {
   width: 100%;
   height: 80px;
   margin-bottom: 20px;
@@ -26,6 +27,8 @@ body {
   font-size: 2.5em;
   color: #fff;
   box-sizing: border-box;
+  border: none;
+  outline: none;
 }
 .buttons {
   display: grid;
